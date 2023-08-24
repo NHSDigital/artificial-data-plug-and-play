@@ -12,7 +12,7 @@ To contact us raise an issue on Github or via [email](mailto:datascience@nhs.net
 ## What is artificial data?
 Artificial data sets provide users with large volumes of data that share some of the characteristics of real data while protecting patient confidentiality. They are designed to model the structure of real data but are completely artificial – they do not contain any actual patient records. We are piloting this new service with a limited number of artificial data sets.
 
-You can find out more about the pilot on the [NHS website](https://digital.nhs.uk/services/artificial-data)
+You can find out more about the pilot on the [NHS website](https://digital.nhs.uk/services/artificial-data).
 
 ## What is this repo for?
 This repo contains some example code for getting started with using artificial data with minimal setup. 
@@ -20,7 +20,7 @@ This repo contains some example code for getting started with using artificial d
 It was creating using the [rap-package-template](https://github.com/NHSDigital/rap-package-template/tree/main) which provides a neat way to create new repositories for Reproducible Analytical Pipelines.
 
 ### What does the repo contain?
-The repo contains the following files and directories
+The repo contains the following files and directories:
 ```
 |- sql                  # Code for interacting with SQL
 |- src                  # Source code for data ingestion, cleaning, processing, etc
@@ -41,7 +41,7 @@ For the plug and play tutorial, the main file you'll be interacting with is [plu
 ## How do I get started?
 
 If you are setting up the tutorial in an environment which is provisioned out of the box (such as Google Colab or GitHub Codespaces), see *Quick start*.
-More detailed instructions can be found in *Full setup*
+More detailed instructions can be found in *Full setup*.
 
 ### Quick start
 The easiest way to run the tutorial is in an environment which is provisioned out of the box.
