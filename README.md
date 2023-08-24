@@ -44,9 +44,12 @@ If you are setting up the tutorial in an environment which is provisioned out of
 More detailed instructions can be found in *Full setup*
 
 ### Quick start
-The easiest way to run the tutorial is in an environment which is provisioned out of the box - we use GitHub Codespaces, but we have also tried this in Google Collab.
+The easiest way to run the tutorial is in an environment which is provisioned out of the box.
+Clicking one of the buttons below will open the repo in the respective environment with all the dependencies setup so you can just get coding!
 
-TODO
+<a href="https://github.com/codespaces/new?template_repository=NHSDigital/artificial-data-plug-and-play" target="_parent"><img src="https://github.com/codespaces/badge.svg" height=30px alt="Open In Codespaces"/></a>
+<a href="https://colab.research.google.com/github/NHSDigital/artificial-data-plug-and-play/blob/aj-upload-tutorial-notebook/plug_and_play.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" height=30px alt="Open In Colab"/></a>
+
 
 ### Full setup
 TODO
