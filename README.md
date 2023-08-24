@@ -47,13 +47,27 @@ More detailed instructions can be found in *Full setup*
 The easiest way to run the tutorial is in an environment which is provisioned out of the box.
 Clicking one of the buttons below will open the repo in the respective environment with all the dependencies setup so you can just get coding!
 
-<a href="https://github.com/codespaces/new?template_repository=NHSDigital/artificial-data-plug-and-play" target="_parent"><img src="https://github.com/codespaces/badge.svg" height=30px alt="Open In Codespaces"/></a>
-<a href="https://colab.research.google.com/github/NHSDigital/artificial-data-plug-and-play/blob/aj-upload-tutorial-notebook/plug_and_play.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" height=30px alt="Open In Colab"/></a>
+<a href="https://github.com/codespaces/new?template_repository=NHSDigital/artificial-data-plug-and-play" target="_parent"><img src="https://github.com/codespaces/badge.svg" width="200" alt="Open In Codespaces"/></a>
+<a href="https://colab.research.google.com/github/NHSDigital/artificial-data-plug-and-play/blob/aj-upload-tutorial-notebook/plug_and_play.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" width="150" alt="Open In Colab"/></a>
 
 
 ### Full setup
-TODO
+Prerequisites:
+- A bash terminal (although similar instructions will work in PowerShell)
+- Python >= 3.10
+- An IDE or text editor (such as VS Code or PyCharm)
 
+Open a terminal and execute the following
+1. Navigate to a directory you want to create the tutorial repo in (using `cd DESTINATION_DIRECTORY`)
+1. Clone the repo using `git clone https://github.com/NHSDigital/artificial-data-plug-and-play.git`
+1. Open the repo in the terminal using `cd artificial-data-plug-and-play` and create a virtual environment via `python -m venv .venv` (note you don't have to do this in a virtual environment, but it is recommended)
+1. Activate the environment and install the requirements `. .venv/bin/activate && pip install -r requirements.txt`
+1. (Optional) Install jupyter via `pip install jupyter`. This will allow you to use jupyter notebooks thoough the classic web interface.
+1. Open the tutorial
+    - Using jupyter if you installed it using the command above `jupyter notebook plug_and_play.ipynb`
+    - Alternatively, you can open the notebook in your IDE of choice (for example using [VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks))
+
+You should now be ready to run the plug and play!
 
 ## See also
 Here are some other related projects that are worth checking out:
