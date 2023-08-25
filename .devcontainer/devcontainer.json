@@ -1,0 +1,9 @@
+{
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "plug_and_play.ipynb"
+      ]
+    }
+  }
+}
